@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:padding="0dp">
+
+    <RelativeLayout
+        android:id="@+id/relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="0dp">
+
+        <!-- Background image that scrolls with content -->
+        <ImageView
+            android:id="@+id/background_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/alpine7909jon"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true" />
+
+        <!-- Stop button positioned relative to the bottom of the image -->
+        <Button
+            android:id="@+id/stop_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#44FF0000"
+        android:text=""
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@id/background_image"
+        android:layout_marginBottom="50dp"
+        android:layout_marginStart="138dp" />
+
+        <!-- Send button positioned relative to the bottom of the image -->
+        <Button
+            android:id="@+id/send_button"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="#4400FF00"
+        android:text=""
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@id/background_image"
+        android:layout_marginBottom="50dp"
+        android:layout_marginStart="524dp" />
+
+    </RelativeLayout>
+</ScrollView>

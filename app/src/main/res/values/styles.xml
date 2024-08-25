@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Splash screen theme -->
+    <style name="SplashScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Your usual theme settings -->
+    </style>
+
+</resources>
